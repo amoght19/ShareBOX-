@@ -1,0 +1,52 @@
+.pageContainer {
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    background-color: #FAEED1;
+    min-height: 100vh;
+}
+
+.pageContainer>h1 {
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topbar {
+    margin-top: 1rem;
+}
+
+.topbar>img {
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info>h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.filesContainer {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.item {
+    display: flex;
+    gap: 2rem;
+}
+
+.profileHeader {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FAEED1;
+}
+
+.container>h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.form {
+    padding-block: 2rem;
+    background-color: #FFFBF5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    gap: 1rem;
+    border: 1px solid #000;
+    min-width: 350px;
+}
+
+.form>a {
+    align-self: center;
+}
+
+.input {
+    border: none;
+    min-height: 2rem;
+    padding-inline: 0.5rem;
+}
+
+.input::placeholder {
+    font-size: 1rem;
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    padding-block: 0.6rem;
+    cursor: pointer;
+    background-color: skyblue;
+    color: #fff;
+    font-size: 1.2rem;
+}
