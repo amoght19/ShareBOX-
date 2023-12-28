@@ -6,7 +6,7 @@ import axios from "axios";
 import styles from "../Styles/SignIn.module.css";
 import { useUser } from "../context/UserProvider";
 
-const serverURL = "http://localhost:8000";
+const serverURL = "https://sharebox-9lqk.onrender.com";
 
 const SignUp = () => {
   const [username, setUsername] = useState("");
