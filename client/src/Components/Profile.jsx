@@ -9,7 +9,7 @@ import { getUserData } from "../services/getUserData";
 import Loading from "./loading";
 
 const Profile = () => {
-  const uri = "http://localhost:8000";
+  const uri = "https://sharebox-9lqk.onrender.com";
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
 

@@ -61,7 +61,7 @@ const SignIn = () => {
         <button onClick={handleSubmit} className={styles.button} type="button">
           Sign In
         </button>
-        <Link to={"/sign-up"}>Not a register user?</Link>
+        <Link to={"/sign-up"}>Not a registered user?</Link>
       </form>
     </div>
   );

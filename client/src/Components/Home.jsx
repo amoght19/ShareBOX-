@@ -47,7 +47,7 @@ function Home() {
           data.append("file", file);
 
           let response = await UploadFile(data);
-          setResponse("http://localhost:8000" + response.path);
+          setResponse("https://sharebox-9lqk.onrender.com" + response.path);
         } catch (err) {
           setErrorMessage("Something went wrong. Try again later. ");
           setError(true);
